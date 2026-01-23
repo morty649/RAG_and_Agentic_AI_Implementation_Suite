@@ -33,4 +33,4 @@ Pdf has some issues
     - may contain images
     - formatting issues
 
-    Creating chunks after cleaning those issues and  creating better metadata for chunks
+    Creating smart chunks after cleaning those issues and  creating better metadata for chunks 
