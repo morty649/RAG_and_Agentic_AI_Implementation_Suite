@@ -25,3 +25,12 @@ CharacterTextSplitter - normal,based on given chunk size , no intelligence
 RecursiveCharacterTextSplitter - hierarchy wise splitting ["\n\n","\n"] => first \n\n then \n ,intelligent splitting
 TokenTextSplitter - based on tokens, it splits
 
+Loading a PDF file
+pypdf - simple but slow
+pymupdf - speed
+
+Pdf has some issues 
+    - may contain images
+    - formatting issues
+
+    Creating chunks after cleaning those issues and  creating better metadata for chunks
