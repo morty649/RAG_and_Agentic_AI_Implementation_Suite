@@ -12,3 +12,8 @@ python-dotenv
 ipykernel
 pandas
 pymupdf
+unstructured
+pdfminer
+python-docx
+docx2txt
+nltk

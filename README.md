@@ -34,3 +34,16 @@ Pdf has some issues
     - formatting issues
 
     Creating smart chunks after cleaning those issues and  creating better metadata for chunks 
+
+Parsing a docx
+    - Docx2txtLoader => Simple,plain,dumb,fast
+    - UnstructuredWordDocumentLoader => Parses the document into semantic elements
+        Preserves structure:
+        Titles
+        Headings
+        Paragraphs
+        ists
+        Tables
+        Page breaks
+        Adds metadata
+
