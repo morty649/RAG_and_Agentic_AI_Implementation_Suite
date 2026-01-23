@@ -47,3 +47,11 @@ Parsing a docx
         Page breaks
         Adds metadata
 
+Parsing a CSV file and Excel file is quite similar
+    - CSVLoader 
+    - UnstructuredCSVLoader => typically we create custom meta-data and page_content taken from csv columns
+
+    EXCEL loading is done with pandas and also unstructured but unstructured doesn't seem to work so partition_xlsx did the job
+
+Json parsing is quite easy using langchain modules
+
