@@ -5,7 +5,8 @@ using LangChain and LangGraph
 
 
 For installation of uv :
-curl -LsSf https://astral.sh/uv/install.sh | sh
+
+    curl -LsSf https://astral.sh/uv/install.sh | sh
 
 In terminal:
 uv init
