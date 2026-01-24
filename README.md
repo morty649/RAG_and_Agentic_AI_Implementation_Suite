@@ -54,5 +54,11 @@ Parsing a CSV file and Excel file is quite similar
 
     EXCEL loading is done with pandas and also unstructured but unstructured doesn't seem to work so partition_xlsx did the job
 
-Json parsing is quite easy using langchain modules
+Json parsing is can be done through langchain module or using custom way to get better readable documents
+
+SQL databases can be loaded through 
+    
+    from langchain_community.utilities import SQLDatabase
+
+or also creating a custom loader which makes it a readable document by LLM
 
