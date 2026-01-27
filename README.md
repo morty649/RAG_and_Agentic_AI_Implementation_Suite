@@ -91,3 +91,19 @@ There is another vectorstore known as InMemoryVectorStore
 Datastax Astradb vectorstore connects with Vector database 
 
 This datastax understanding will be done through google colab because of large set of dependancies
+
+There is also Pinecone Vector Database that can be used for free
+
+Chunks after splitting should be contextually rich,self-contained and logically seperated
+
+Similar chunks are merged after splitting so that all the related stuff will be in one place
+
+Initializing an embedding model got easier 
+
+    from sentence_transformers import SentenceTransformer
+    model=SentenceTransformer('all-MiniLM-L6-v2')
+
+
+That specific model is used because no api key required and opensource for embedding
+
+Semantic Chunking - if similarity between chunks are above threshold append one to another to give meaningful context
