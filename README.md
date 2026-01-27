@@ -70,3 +70,24 @@ There is a chance to work with OPENAI embedding models but that is pricey
 So i considered to go with huggingface models which give same results 90 percent of time
 
 Huggingface models as vector embeddings and google models as LLM work just fine
+
+Vector Store => light weight , mini - version of vector database
+Vector Database => full fledged and has many features 
+
+
+FIASS works great with GPU availability and ChromaDB is production grade
+
+Groq models as LLM works great for production grade because of better rate limits
+
+    Conversational memory is the key for context length
+
+Simple RAG
+Streaming RAG - where StrOutputParser is not required
+Conversational Memory RAG ***
+
+There is another vectorstore known as InMemoryVectorStore 
+    - stores in as dictionary , retrieves using cosine similarity
+
+Datastax Astradb vectorstore connects with Vector database 
+
+This datastax understanding will be done through google colab because of large set of dependancies
