@@ -192,4 +192,32 @@ Re-Ranking Technique => Hybrid Search Strategy Type
     Second Stage Filtering Process in retrieval systems
     - first use a fast retriever to fetch top-k documents
     - use more accurate but slower model to re-score and re-order those based on the relevancy of the query
+
+
+Maximal Marginal Relevance
+
+    It selects documents that are both 
+    - Relevant to the query
+    - Diverse from each other(the documents)
+    
+    * Prevents the retriever from returning the similar documents that repeat the same content
+
+    MMR(doc) = lambda * Sim( doc , query ) - ( 1 - lambda ) * max(s belongs to S) Sim( doc , S)
+    
+    the MMR(doc) should be high which means it is diverse and also relevant 
+    
+    if not clear do with an example
+
+When to use MMR :
+    . In a RAG to avoid feeding the LLM with redundant documents 
+    . ChatBots : FAQ , Search APP 
+    . Retriever already returns many results 
+    . MMR + Hybrid retriever => Deadly combo ( i think )
+
+When not to use :
+    . You are already re-ranking 
+    . Documents are already diverse 
+    . Extreme short context window
+    . You may want top 1 relevant 
+    . You need precision only
     
