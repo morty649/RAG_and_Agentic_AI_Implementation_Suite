@@ -186,3 +186,10 @@ Key Benefits of Hybrid Search
         Word variants
 
         BM25 alone may fail here, but hybrid search catches more cases.
+
+Re-Ranking Technique => Hybrid Search Strategy Type
+
+    Second Stage Filtering Process in retrieval systems
+    - first use a fast retriever to fetch top-k documents
+    - use more accurate but slower model to re-score and re-order those based on the relevancy of the query
+    
