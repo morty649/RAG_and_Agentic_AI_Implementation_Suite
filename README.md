@@ -220,4 +220,9 @@ When not to use :
     . Extreme short context window
     . You may want top 1 relevant 
     . You need precision only
+
+
+    Query Enhancement is using a LLM to broaden the query in a similar way to vector database chunks such that it becomes meaningful and easier to compare and retrieve results
+
+    After all understood how LCEL is built and built my own for Query Enhancement
     
