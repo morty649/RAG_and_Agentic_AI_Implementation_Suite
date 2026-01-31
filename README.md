@@ -4,9 +4,15 @@ RETRIEVAL AUGMENTED GENERATION (RAG)
 using LangChain and LangGraph
 
 
-For installation of uv :
+1. For installation of uv :
+
+For MacOs or Linux 
 
     curl -LsSf https://astral.sh/uv/install.sh | sh
+
+For Windows 
+
+    powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 
 In terminal:
 uv init
