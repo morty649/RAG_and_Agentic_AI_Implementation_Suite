@@ -243,3 +243,19 @@ HyDE : Hypothetical Document Embeddings
     
 Multimodal -> Text and Images Understanding
         Waah Man This is great I am working on this 
+
+
+Langchain Latest things :
+    - Basic Agent Exploration
+    - Tools for the Agent
+    - Types of Messages => SystemMessage,AIMessage,HumanMessage,ToolMessage
+    - Pydantic used for structuring the output in runtime. Ex: Movie details
+    - Typedict same purpose as pydantic but without errors at runtime
+    - Nested Structures in both
+    - DataClasses
+
+Middleware :
+    - Summarization Middleware - messages,tokens,fractions
+    - Human in the Loop - email sending example 
+    - for many more visiting the docs of langchain for middleware is necessary
+

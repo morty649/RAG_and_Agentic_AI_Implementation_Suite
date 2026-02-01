@@ -29,3 +29,7 @@ langchain-google-genai
 
 
 rank_bm25
+
+
+# agents man !!!
+langgraph
