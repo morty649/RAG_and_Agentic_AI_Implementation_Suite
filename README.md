@@ -262,3 +262,19 @@ Middleware :
 LangGraph 
     
     creating a basic graph
+
+ ReAct Agent Architecture
+    The intuition behind ReAct, a general agent architecture.
+
+1. act - let the model call specific tools
+2. observe - pass the tool output back to the model
+3. reason - let the model reason about the tool output to decide what to do next (e.g., call another tool or just respond directly)
+
+Then there comes agents with memory -> generally this is done through creating a specific thread for every user who is conversing
+By using that config when invoking helps the llm to remember the context
+
+Different Streaming Techniques 
+    .stream() and .astream()
+     There are two types of stream_modes : values and updates
+     values - the whole conversation from start to latest
+     updates - the latest only
