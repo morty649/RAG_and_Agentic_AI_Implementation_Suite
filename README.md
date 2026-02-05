@@ -308,3 +308,13 @@ There is a project in AgenticRAG subfolder where
     The RAG pipeline  takes the query in goes to the vector database that it thinks is perfect for the query 
     If the retrieved documents from the database doesn't match that of the query - which is checked by another agent - then it reinitiates the process again and checks another relevant database for documents and reasoning
 
+
+Autonomous RAG
+
+    First : Chain of Thoughts => Let the LLM reason step-by-step
+
+![Alt text](Autonomous_RAG/corecompsofautonomousrag.png)
+
+![alt text](Autonomous_RAG/agenticvsautonomous.png)
+
+
