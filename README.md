@@ -303,3 +303,8 @@ Agentic RAG
 
 In this LLM has the capability to call multiple tools for multiple vector databases and also for multiple purposes
 
+There is a project in AgenticRAG subfolder where 
+ 
+    The RAG pipeline  takes the query in goes to the vector database that it thinks is perfect for the query 
+    If the retrieved documents from the database doesn't match that of the query - which is checked by another agent - then it reinitiates the process again and checks another relevant database for documents and reasoning
+
