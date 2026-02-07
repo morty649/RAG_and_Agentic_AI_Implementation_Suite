@@ -310,6 +310,17 @@ There is a project in AgenticRAG subfolder where
 
 
 Autonomous RAG
+    It is a type of RAG where an LLM(or agent) is capable of reasoning,planning,acting,reflecting and improving - on its own without the intervention of a "Human"
+
+    If a Query is given it is broken into structured sub-queries through 
+    1.Query Planning and Decomposition after that those sub-queries are given to Agent to create sub-sub reasoning steps through 
+    2. Chain of Thoughts then they are 
+    (React -> Act -> Observed ) by 3.Agentic RAG followed by 
+    4.Iterative Retrieval Check where its like checking whether the response is accurate enough and then goes into a iterative loop to get the answer better through multiple steps then the
+    5. Answer is Synthesised from multiple nodes aka multiple sources after which 
+    6.self reflection occur and if it fails self reflection it goes back to iterative retrieval 
+    If good it ends with reply to the user.
+
 
     First : Chain of Thoughts => Let the LLM reason step-by-step
 
