@@ -322,6 +322,9 @@ Autonomous RAG
     6.self reflection occur and if it fails self reflection it goes back to iterative retrieval 
     If good it ends with reply to the user.
 
+        Iterative Retrieval : “I didn’t find enough info, let me search again.”
+        Self Reflection : “I didn’t find enough info, let me search again.”
+
 
 
 
