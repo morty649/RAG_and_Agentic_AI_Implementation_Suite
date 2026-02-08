@@ -560,6 +560,9 @@ Adaptive RAG :
 
 - It simply classifies whether to dig deeper into understanding and retrieving the result for the query or just answer the query itself from its own knowledge
 
-- Ex : Capital of India - Simple - Answer itself : Delhi,
+-      Capital of India - Simple - Answer itself : Delhi,
 -      What is the relationship between AI slop and increase of RAM prices - Complex : Dig deeper for retrieval
 
+Still not done include : Multi_agent_workflow and Autonomous Agent with all of the combined features
+
+RAG with Persistant memory using LangGraph
