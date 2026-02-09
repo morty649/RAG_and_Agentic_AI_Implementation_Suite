@@ -580,5 +580,15 @@ There are two types
 - Semantically equality in cache
 
 
+Evaluation of chatbots : (This will be done using Langsmith)
+    It involves 4 steps:
+    - Gathering datapoints : For a question what should be the answer {"question":"answer"}
+    - LLM as a Judge : Seperate LLM is used to judge the answer given by chatbot . But how ? There comes the next step
+    - Evaluation : Based on correctness(closeness of the answer to the real answer),2. Is it nearly concise as much as the dataset answer
+    - Comparing Multiple LLM models how they perform as a judge for the usecase
+
+
+
+
 
 Still not done include : Multi_agent_workflow and Autonomous Agent with all of the combined features
