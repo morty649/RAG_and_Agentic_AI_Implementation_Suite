@@ -1,3 +1,4 @@
+
 A repo which includes different types of techniques to implement better RAG and AI Agents
 
 RETRIEVAL AUGMENTED GENERATION (RAG)
@@ -7,6 +8,12 @@ using LangChain and LangGraph
 
 - Project that directly depends on this - [guy that knows ironman 1](https://github.com/morty649/ironman-intelligence)
 - Check it out at [Ironman 1 nerd](https://theguywhoknows-ironman1.streamlit.app/)
+
+https://img.shields.io/badge/python-3.9+-blue.svg
+https://img.shields.io/badge/License-MIT-yellow.svg
+https://img.shields.io/badge/demo-live-brightgreen
+
+
 
 To understand this repo better - Fork and Run modules. 
 1. For installation of uv :
