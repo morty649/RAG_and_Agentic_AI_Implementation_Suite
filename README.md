@@ -3,8 +3,10 @@ A repo which includes different types of techniques to implement better RAG and 
 RETRIEVAL AUGMENTED GENERATION (RAG)
 using LangChain and LangGraph
 
-    Different types of Projects included are made with open source LLMs used for embedding and for reasoning
-    To run this repo : 1. Create a .env file and add GROQ_API_KEY(important),TAVILY_API_KEY(secondary)
+     change .env_format file to .env and add those keys
+
+- Project that directly depends on this - [guy that knows ironman 1](https://github.com/morty649/ironman-intelligence)
+- Check it out at [Ironman 1 nerd](https://theguywhoknows-ironman1.streamlit.app/)
 
 To understand this repo better - Fork and Run modules. 
 1. For installation of uv :
@@ -21,6 +23,9 @@ In terminal:
 uv init
 uv venv
 uv add -r requirements.txt
+
+
+
 
 - **Data Ingestion Module**
 Robust document loaders and intelligent chunking for RAG pipelines.
