@@ -9,9 +9,10 @@ using LangChain and LangGraph
 - Project that directly depends on this - [guy that knows ironman 1](https://github.com/morty649/ironman-intelligence)
 - Check it out at [Ironman 1 nerd](https://theguywhoknows-ironman1.streamlit.app/)
 
-https://img.shields.io/badge/python-3.9+-blue.svg
-https://img.shields.io/badge/License-MIT-yellow.svg
-https://img.shields.io/badge/demo-live-brightgreen
+![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Demo](https://img.shields.io/badge/demo-live-brightgreen)
+
 
 
 
